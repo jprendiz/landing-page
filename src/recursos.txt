@@ -1,0 +1,15 @@
+// servicio que nos permite mostrar nuestro html en un repositorio de git hub
+
+// Desde la línea de comandos de la terminal del proyecto se instala el servicio
+
+npm install gh-pages --save-dev
+
+// modificamos el package.jason
+
+"scripts": {
+    "deploy": "gh-pages -d src"
+  },
+
+desde la terminal del proyecto lo desplegamos
+  
+npm run deploy
